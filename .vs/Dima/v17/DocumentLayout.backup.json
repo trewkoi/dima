@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\Dima\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|c:\\dev\\dima\\dima.core\\responses\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|solutionrelative:dima.core\\responses\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|c:\\dev\\dima\\dima.core\\responses\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|solutionrelative:dima.core\\responses\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|c:\\dev\\dima\\dima.core\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|solutionrelative:dima.core\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|c:\\dev\\dima\\dima.core\\requests\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|solutionrelative:dima.core\\requests\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|c:\\dev\\dima\\dima.core\\requests\\pagedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E6A62A-6BC2-48A7-9F5A-CF7CD00CFBEA}|Dima.Core\\Dima.Core.csproj|solutionrelative:dima.core\\requests\\pagedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\dev\\Dima\\Dima.Core\\Configuration.cs",
+              "RelativeDocumentMoniker": "Dima.Core\\Configuration.cs",
+              "ToolTip": "C:\\dev\\Dima\\Dima.Core\\Configuration.cs",
+              "RelativeToolTip": "Dima.Core\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T23:40:14.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PagedResponse.cs",
+              "DocumentMoniker": "C:\\dev\\Dima\\Dima.Core\\Responses\\PagedResponse.cs",
+              "RelativeDocumentMoniker": "Dima.Core\\Responses\\PagedResponse.cs",
+              "ToolTip": "C:\\dev\\Dima\\Dima.Core\\Responses\\PagedResponse.cs",
+              "RelativeToolTip": "Dima.Core\\Responses\\PagedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T23:38:04.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\dev\\Dima\\Dima.Core\\Responses\\Response.cs",
+              "RelativeDocumentMoniker": "Dima.Core\\Responses\\Response.cs",
+              "ToolTip": "C:\\dev\\Dima\\Dima.Core\\Responses\\Response.cs",
+              "RelativeToolTip": "Dima.Core\\Responses\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T23:24:15.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagedRequest.cs",
+              "DocumentMoniker": "C:\\dev\\Dima\\Dima.Core\\Requests\\PagedRequest.cs",
+              "RelativeDocumentMoniker": "Dima.Core\\Requests\\PagedRequest.cs",
+              "ToolTip": "C:\\dev\\Dima\\Dima.Core\\Requests\\PagedRequest.cs",
+              "RelativeToolTip": "Dima.Core\\Requests\\PagedRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T23:22:18.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\dev\\Dima\\Dima.Core\\Requests\\Request.cs",
+              "RelativeDocumentMoniker": "Dima.Core\\Requests\\Request.cs",
+              "ToolTip": "C:\\dev\\Dima\\Dima.Core\\Requests\\Request.cs",
+              "RelativeToolTip": "Dima.Core\\Requests\\Request.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T23:20:35.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
