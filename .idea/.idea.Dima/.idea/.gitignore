@@ -6,6 +6,9 @@
 /contentModel.xml
 /projectSettingsUpdater.xml
 /.idea.Dima.iml
+../../.vs
+../../.run
+../../.idea
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
