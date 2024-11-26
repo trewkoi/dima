@@ -1,0 +1,13 @@
+﻿@page "/transactions/history"
+@inherits ListTransactionsPage
+
+<MudText Typo="Typo.h3">Lançamentos</MudText>
+
+<MudDataGrid
+    Items="@Transactions"
+    Filterable="true"
+    QuickFilter="Filter"
+    Hideable="true"
+    ColumnResizeMode="ResizeMode.Column">
+    
+</MudDataGrid>
