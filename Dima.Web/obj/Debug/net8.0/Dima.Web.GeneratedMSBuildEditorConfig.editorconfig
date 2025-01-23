@@ -37,6 +37,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/dev/Dima/Dima.Web/Components/Reports/ExpensesByCategoryChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXBvcnRzXEV4cGVuc2VzQnlDYXRlZ29yeUNoYXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Dima/Dima.Web/Components/Reports/IncomesAndExpensesChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXBvcnRzXEluY29tZXNBbmRFeHBlbnNlc0NoYXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Dima/Dima.Web/Components/Reports/IncomesByCategoryChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXBvcnRzXEluY29tZXNCeUNhdGVnb3J5Q2hhcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/dev/Dima/Dima.Web/Layout/HeadlessLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRsZXNzTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -75,6 +87,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/dev/Dima/Dima.Web/Pages/Transactions/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNhY3Rpb25zXENyZWF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/Dima/Dima.Web/Pages/Transactions/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNhY3Rpb25zXEVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/dev/Dima/Dima.Web/Pages/Transactions/List.razor]

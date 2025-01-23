@@ -16,7 +16,7 @@ public class ListTransactionsPage : ComponentBase
     public string SearchTerm { get; set; } = string.Empty;
     public int CurrentYear { get; set; } = DateTime.Today.Year;
     public int CurrentMonth { get; set; } = DateTime.Today.Month;
-    public int[] Tears { get; set; } =
+    public int[] Years { get; set; } =
     {
         DateTime.Now.Year,
         DateTime.Now.AddYears(-1).Year,
@@ -42,7 +42,7 @@ public class ListTransactionsPage : ComponentBase
     
     #region Private Methods
 
-    private async Task GetTransactions()
+    private async Task GetTransactionsAsync()
     {
         IsBusy = true;
 
@@ -51,7 +51,7 @@ public class ListTransactionsPage : ComponentBase
             var request = new GetTransactionsByPeriodRequest
             {
                 StartDate = DateTime.Today.GetFirstDay(CurrentYear, CurrentMonth),
-                EndDate = DateTime.Now.GetFirstDay(CurrentYear, CurrentMonth),
+                EndDate = DateTime.Now.GetLastDay(CurrentYear, CurrentMonth),
                 PageNumber = 1,
                 PageSize = 1000,
             };
@@ -59,6 +59,33 @@ public class ListTransactionsPage : ComponentBase
             
             if (result is { IsSuccess: true })
                 Transactions = result.Data ?? [];
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add(ex.Message, Severity.Error);
+        }
+        finally
+        {
+            IsBusy = false;
+        }
+    }
+
+    private async Task OnDeleteAsync(long id, string title)
+    {
+        IsBusy = true;
+
+        try
+        {
+            var result = await Handler.DeleteAsync(new DeleteTransactionRequest { Id = id });
+            if (result is { IsSuccess: true })
+            {
+                Snackbar.Add($"Lançamento {title} removido!", Severity.Success);
+                Transactions.RemoveAll(x => x.Id == id);
+            }
+            else
+            {
+                Snackbar.Add(result.Message, Severity.Error);
+            }
         }
         catch (Exception ex)
         {
@@ -82,13 +109,36 @@ public class ListTransactionsPage : ComponentBase
         return transaction.Id.ToString().Contains(SearchTerm, StringComparison.OrdinalIgnoreCase)
                || transaction.Title.Contains(SearchTerm, StringComparison.OrdinalIgnoreCase);
     };
-    
+
+    public async void OnDeleteButtonClickedAsync(long id, string title)
+    {
+        var result = await DialogService.ShowMessageBox(
+            "Atenção!",
+            $"Ao prosseguir o {title} será excluído. Esta ação é irreversível. Deseja confirmar?",
+            yesText: "Excluir",
+            cancelText: "Cancelar");
+
+        if (result is true)
+        {
+            await OnDeleteAsync(id, title);
+        }
+        
+        StateHasChanged();
+    }
+
+    public async Task OnSearchAsync()
+    {
+        await GetTransactionsAsync();
+        StateHasChanged();
+    }
+
+
     #endregion
     
     #region Overrides
 
     protected override async Task OnInitializedAsync() 
-        => await GetTransactions();
+        => await GetTransactionsAsync();
 
     #endregion
 }

@@ -34,10 +34,12 @@
         <TemplateColumn>
             <CellTemplate>
                 <MudStack Row Class="d-flex justify-end">
-                    <MudIconButton Icon="@Icons.Material.Filled.Edit" Href="@($"/categories/edit/{context.Item!.Id}")"
-                                   Color="Color.Info"></MudIconButton>
-                    <MudIconButton Icon="@Icons.Material.Filled.Delete" Color="Color.Error"
-                                   OnClick="() => OnDeleteButtonClickedAsync(context.Item!.Id, context.Item.Title)"></MudIconButton>
+                    <MudIconButton Icon="@Icons.Material.Filled.Edit" 
+                                   Href="@($"/categories/edit/{context.Item?.Id}")"
+                                   Color="Color.Info"/>
+                    <MudIconButton Icon="@Icons.Material.Filled.Delete" 
+                                   Color="Color.Error"
+                                   OnClick="() => OnDeleteButtonClickedAsync(context.Item!.Id, context.Item.Title)"/>
                 </MudStack>
             </CellTemplate>
         </TemplateColumn>
